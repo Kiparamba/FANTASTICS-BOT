@@ -24,9 +24,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ DUDUU_MENDEZ²²¹-ᴍᴅ" 
 
 
-global.devs = "255749750707" // Developer Contact
+global.devs = "255715903030" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255749750707";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255715903030";
 
 
 
@@ -56,13 +56,13 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,255xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,255xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "255749750707";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "255715903030";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID  
+global.SESSION_ID = process.env.SESSION_ID ||  "wire session id "  // PUT your SESSION_ID  
 
 module.exports = {
 
